@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: "Poppins", Sans-Serif;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 60px;
+    font-size: 1.1rem; /*Multiplica por 14px (1.1 x 14px)*/
+    text-transform:uppercase;
+    background: #194569;
+    color:#eee;
+    border-radius: 5px;
+    transition: background 500ms ease;
+}
+.btn:hover{
+    cursor:pointer;
+    background: #000;
+}
+
+.headline{
+    font-size:2.2rem;
+    text-transform: ;
+    font-weight: bold;
+    text-align:center;
+    padding-bottom:50px;
+    letter-spacing:2px;
+}
+
+/*Navbar*/
+#navbar{
+    width:100%;
+    background: #194569;
+    color:#eee;
+    height:80px;
+    position:fixed;
+}
+#navbar-container{
+    width: 80%; /*width um pouco menor que o da nav pra ficar "dentro"*/
+    height:100%; /*100% da altura da nav*/
+    margin:auto; /*por ser menor que o pai centraliza o conteúdo*/
+    display:flex;
+    justify-content: space-between; /*Justifica conteúdo com espaço entre eles*/
+    align-items:center;
+}
+
+.logo{
+    font-size:2rem;
+}
+
+#navbar-items{
+    display:flex;
+    list-style:none;
+    text-transform: ;
+}
+#navbar-items li{
+    padding:10px;
+}
+
+/* Showcase */
+#showcase{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#eee;
+    background: url("https://images.impresa.pt/sicnot/2021-01-28-fake-news---1-.jpg") no-repeat center center/cover;
+    
+    /* Overlay */
+    background-color: rgba(0,0,0,0.45);
+    background-blend-mode: color;
+}
+
+#showcase-container{
+    text-align: center;
+}
+#showcase-container h2{
+    font-size: 2.5rem;
+}
+#showcase-container p{
+    font-size: 1.2rem;  
+    padding: 10px 0px;
+}
+
+/* Clients */
+#clients{
+    width: 100%;
+    background:#194569;
+    color:#eee;
+    padding:50px;
+}
+
+#clients-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); /* 4 elementos ocupando 1 fração da div cada um (25%)*/
+    justify-items: center;
+    padding:15px;
+}
+
+.client{
+    display:inline-block; 
+    width: 25%;
+}
+
+/* About */
+#features{
+    width:100%;
+    background:#5f84a2;
+    color:#eee;
+    padding:50px;
+}
+
+#features-container{
+    width:100%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px; /* da uma distância entre uma coluna da outra */
+}
+
+.feature {
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    background: ;
+    padding: 20px;
+    border-radius:5px;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Product*/ 
+#product{
+    width:100%;
+    padding:50px;
+    color:#194569;
+}
+#product-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#items{
+   width: 650px;
+}
+#items .item{
+    display:flex;
+    padding: 10px;
+    margin:15px 0px;
+    font-size:1.2rem;
+    
+}
+#items .item i{
+    margin-right:20px;
+}
+.iphone-x{
+    width:50vw;
+    margin:0;
+    padding:0;
+}
+
+/* Testimonials */
+.testimonial{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #007b5f;
+    padding:15px;
+    margin:15px 0;
+    border-radius:5px; 
+    color:#eee;
+}
+#testimonials{
+    width:100%;
+    background: #ffffff;
+    color:#007b5f;
+    padding:50px;
+}
+
+#testimonials-container{
+    width: 80%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial .testimonial-image{
+    height:200px;
+    width:auto;
+    border-radius:50%;
+    margin:15px;
+} 
+
+/* Footer */
+#footer{
+    background: #222;
+    color:#eee;
+    padding:30px;
+    text-align:center;
+}

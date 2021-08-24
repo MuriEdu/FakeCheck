@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: "Poppins", Sans-Serif;
+    background-color:#5f84a2;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+/* Navbar */
+#navbar{
+    width:100%;
+    background: #194569;
+    color:#eee;
+    height:80px;
+    position:relative;
+}
+#navbar-container{
+    width: 80%; /*width um pouco menor que o da nav pra ficar "dentro"*/
+    height:100%; /*100% da altura da nav*/
+    margin:auto; /*por ser menor que o pai centraliza o conteúdo*/
+    display:flex;
+    justify-content: space-between; /*Justifica conteúdo com espaço entre eles*/
+    align-items:center;
+}
+
+.logo{
+    font-size:2rem;
+}
+
+#navbar-items{
+    display:flex;
+    list-style:none;
+    text-transform: ;
+}
+#navbar-items li{
+    padding:10px;
+}
+.container{
+    width:500px;
+    height:400px;
+    background-color:#91aec4;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    padding:25px;
+    border-radius:15px;
+    margin-top:70px;
+    margin-left:450px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:60px -16px  #194569;
+}
+.container h1{
+    color:white;
+    margin-bottom:25px;
+}
+.container p{
+    color:white;
+    margin-bottom:25px;
+}
+.container input{
+    border:none;
+    padding:8px;
+    border-radius:15px;
+    text-align:center;
+    margin-bottom:20px;
+}
+.container button{
+    border:none;
+    background-color:white;
+    border-radius:15px;
+    padding:8px;
+    width:150px;
+}

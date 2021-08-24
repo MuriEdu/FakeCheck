@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: "Poppins", Sans-Serif;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+/* Navbar */
+#navbar{
+    width:100%;
+    background: #194569;
+    color:#eee;
+    height:80px;
+    position:relative;
+}
+#navbar-container{
+    width: 80%; /*width um pouco menor que o da nav pra ficar "dentro"*/
+    height:100%; /*100% da altura da nav*/
+    margin:auto; /*por ser menor que o pai centraliza o conteúdo*/
+    display:flex;
+    justify-content: space-between; /*Justifica conteúdo com espaço entre eles*/
+    align-items:center;
+}
+
+.logo{
+    font-size:2rem;
+    
+}
+
+#navbar-items{
+    display:flex;
+    list-style:none;
+    text-transform: ;
+}
+#navbar-items li{
+    padding:10px;
+}
+.container{
+    width:450px;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    box-shadow:2px 2px 20px rgba(0,0,0,0.4);
+    background-color:#5f84a2;
+}
+.header h1{
+    color:white;
+    padding:15px;
+}
+.body{
+    flex:1;
+    color:white;
+    background-color: rgba(0,0,0,0.7);
+    padding:20px 30px;
+}
+.message{
+    background-color:dodgerblue;
+    padding:10px;
+    color:white;
+    width:fit-content;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+.user_message{
+    margin-left:auto;
+    background-color:white;
+    color:black;
+}
+.footer form{
+    display:flex;
+}
+form input{
+    flex:1;
+    height:40px;
+    border:none;
+    outline:none;
+    padding-left:5px;
+    font-size:16px;
+}
+form button{
+    width:100px;
+    font-size:18px;
+    border:none;
+    outline:none;
+    background-color:#5f84a2;
+    color:white;
+}
+.interface{
+    display:flex;
+}
+.conversas{
+    width:1000px;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    box-shadow:2px 2px 20px rgba(0,0,0,0.4);
+    background-color:#5f84a2;
+    padding:25px;
+}
+.conversas ul{
+    list-style:none;
+}
+.conversas ul li{
+    font-size:30px;
+    margin:5px;
+    color:white;
+    border-top:1px solid white;
+}
+#ultima{
+    border-bottom:1px solid white;
+}
