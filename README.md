@@ -10,5 +10,5 @@ we will collect some data about websites, like reputation and security, and save
 
 ### Links
 
-- ***University La Salle:*** (https://www.unilasalle.edu.br/canoas)
-- ***EduEmprèm:*** (https://sites.google.com/lasalle.org.br/eduempren/)
+- <a href="https://www.unilasalle.edu.br/canoas">University La Salle</a>
+- <a href="https://sites.google.com/lasalle.org.br/eduempren/">EduEmprèm</a>
