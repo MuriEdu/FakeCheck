@@ -1,7 +1,7 @@
 # FakeCheck
 
 ## Abaut Event:
-This project was developed in less than 24 hours for an event called *EduEmprèm*, hosted by *LaSalle university*
+This project was developed in less than 24 hours for an event called *EduEmprèn*, hosted by *LaSalle university*
 The event objective is encourage students in highschool to create and develop a new startup and new product, stimulate criativity and bring people form different places together
 
 ## Abaut Project:
@@ -11,4 +11,4 @@ we will collect some data about websites, like reputation and security, and save
 ### Links
 
 - <a href="https://www.unilasalle.edu.br/canoas">University La Salle</a>
-- <a href="https://sites.google.com/lasalle.org.br/eduempren/">EduEmprèm</a>
+- <a href="https://sites.google.com/lasalle.org.br/eduempren/">EduEmprèn</a>
