@@ -1,4 +1,4 @@
-#FakeCheck
+# FakeCheck
 
 ## Abaut Event:
 This project was developed in less the 24 hours for an event called *EduEmprèm*, hosted by *LaSalle university*
